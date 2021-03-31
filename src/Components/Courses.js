@@ -61,7 +61,7 @@ const App = (props) => {
         <Button style={{width:350}} outline color="danger" onClick={() => setRSelected(1)} active={rSelected === 1}>Upto 9 years<div>Beginner</div></Button>
         <Button style={{width:350}} outline color="danger" onClick={() => setRSelected(2)} active={rSelected === 2}>9-12 years<div>Intermidiate</div></Button>
         <Button style={{width:350}} outline color="danger" onClick={() => setRSelected(3)} active={rSelected === 3}>13-14 years<div>Advanced</div></Button>
-        {/* <p>Selected: {rSelected}</p> */}
+        <p>Selected: {rSelected}</p>
       </ButtonGroup>
       </div>    
   </div>    
