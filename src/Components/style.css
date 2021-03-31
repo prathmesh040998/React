@@ -1,0 +1,163 @@
+*{
+    box-sizzing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: grey;
+}
+
+
+
+.Registerbackgroundimg {
+    background-image: url("https://www.code-gurukul.com/images/Group%20137.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: max-content;
+    width: 100%;
+}
+
+  
+
+.container{
+    width:80%;
+    position:absolute;
+    left:50%;
+    top:  50%;
+    transform:translate(-50%,-50%);
+    height:95vh;
+    display: flex;
+
+}
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:55%;
+}
+.image{
+    width:60%;
+
+}
+.img{
+    background-color:floralwhite;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+} 
+
+.placeholder {
+    color: white ;
+    opacity: 60% ;
+    height: "21px";
+    width: "148px";
+  }  
+.label{
+    font-size:12px;
+    color:#01011f;
+    line-height:1.5;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    display:flex;
+    align-items:center;
+    width:80%;
+    min-height:25px;
+    border-bottom:none;
+    padding:15px 0px;
+    margin-top:10px;
+    margin-bottom:0px;
+    padding-bottom:2px;
+}
+input{
+    display:block;
+    width:100%;
+    font-size:18px;
+    background:transparent;
+    color:#0f0f0f;
+    font-weight:500;
+    padding:10px 0px;
+}
+.btn{
+    margin-top: 20px;
+    width:200px;
+    height:50px;
+    border-radius:40px;
+    outline:none;
+    font-weight:500;
+    font-size:1rem;
+    border:none;
+    background:rgb(205, 169, 50);
+    color: #fff;
+    box-shadow: 8px 10px 30px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+.btn:hover{
+    background:#4b2888;
+    color: #fff;
+}
+.Firstlesson{
+    background-color: rgb(252, 214, 252);
+    background-size: cover;
+}
+
+
+
+.RegisterInfoImages{
+  background-image: url("https://www.code-gurukul.com/images/Group%20243.svg");
+
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 20vh;
+  height: min-content;
+  width: 900%;
+}
+
+.img-fluid1{
+    background-color:rgb(252, 214, 252);
+    width: 90%;
+    height:500%;
+    object-fit: cover;
+}
+
+  @media screen and (min-width: 600px) {
+    .RegisterInfoImages {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .RegisterDesktopImages {
+      display: none;
+    }
+  }
+  .inp {
+    border: none ;
+    border-bottom: 2px solid #feca00 ;
+    outline: none ;
+    background-color: transparent ;
+    color: white;
+  }
+  
+  .mobileView {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+ 
+.text-center {
+    text-align: center ;
+}
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: min-content;
+  
+}

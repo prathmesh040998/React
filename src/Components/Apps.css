@@ -5,7 +5,7 @@
 }
 
 .App-header {
-  background-color: #F6E9ED;
+  background-color: #4a148c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fce4ec;
 }
 
 div.fixed {
@@ -25,3 +25,4 @@ div.fixed {
   left: 2px;
   z-index: 6;
 }
+
