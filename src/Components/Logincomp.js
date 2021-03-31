@@ -118,7 +118,7 @@ function Logincomp() {
                                           <div class="text-center font-weight-blod mt-2 font1">
                         <p class="text-white">
                            Haven't signed up?
-                            <a href="Registraion.html" class="Loginhere text-warning font1"> Sign Up Here </a>
+                            <a href="/home/prathmesh/React1/hello-world/Registraion.html" class="Loginhere text-warning font1"> Sign Up Here </a>
                         </p>
                     </div>
                                 </form>
