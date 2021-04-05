@@ -154,7 +154,7 @@ const closeMobileMenu= () => {
       
                    <Box className={classes.sectionDesktop}>
                     <ThemeProvider theme={theme}>            
-                       <BootstrapButton  fullwidth  variant="contained"   style={{backgroundColor: "#ffca28", borderRadius: "40px"}} onClick={clickHandler}>Book a free course</BootstrapButton>
+                       <BootstrapButton Link to="Registration.html" fullwidth  variant="contained"   style={{backgroundColor: "#ffca28", borderRadius: "40px", width: 250}} onClick={clickHandler}>Book a free course</BootstrapButton>
                        
                     </ThemeProvider> 
                   </Box>

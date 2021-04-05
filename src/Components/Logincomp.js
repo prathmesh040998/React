@@ -29,11 +29,11 @@ function Logincomp() {
 
                 <div className="row">
                     
-                    <div className=" col-xs-12 col-md-12  col-lg-7 login1">
+                    <div className=" col-12 col-md-12  col-lg-7 login1">
 
                         <div className="col-sm-2">
                           <Hidden xsDown="true" >
-                            <img src={img1} className="img" alt="error" width="90"></img>
+                            <img src={img1} className="img" alt="error" width="80"></img>
                             </Hidden>
 
                         </div>
