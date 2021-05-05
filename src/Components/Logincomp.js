@@ -33,7 +33,7 @@ function Logincomp() {
 
                         <div className="col-sm-2">
                           <Hidden xsDown="true" >
-                            <img src={img1} className="img" alt="error" width="80"></img>
+                            <img src={img1} className="img" alt="error" width="70"></img>
                             </Hidden>
 
                         </div>
@@ -174,6 +174,7 @@ function Logincomp() {
                                
                             </div>
                         </div>
+                        
                       </div>
 
 
